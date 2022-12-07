@@ -1,5 +1,31 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) ![Webpack](https://img.shields.io/badge/-Webpack-green) ![React.js](https://img.shields.io/badge/-React.js-black)
 
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
 # React-ToDo-App
 A website that lets you add list of to do task that helps you to organize your day. It lists the tasks that you need to do and allows you to mark them as complete.
 
@@ -11,11 +37,21 @@ A website that lets you add list of to do task that helps you to organize your d
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript
-">React</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+  </ul>
+</details>
 
 <!-- Features -->
 <br>
@@ -24,12 +60,15 @@ A website that lets you add list of to do task that helps you to organize your d
 
 - **Single-Page-Application**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://mujeeb4582.github.io/react-todo-app/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -39,19 +78,58 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- VIsual Studio Code.
-- A Web Browser (preferably Google Chrome)
+In order to run this project you need:
+
+- [Node](https://nodejs.org/en/) installed in your computer 
+- [Git](https://git-scm.com/) installed in your computer 
 
 ### Setup
 
-- Clone the GitHub Repository
-- run this commands in your terminal:
-    - `npm install`
-    - `npm run build`
-    - `npm start`
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:Mujeeb4582/react-todo-app.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd my-project
+  npm install
+```
 
 ### Usage
-  After running `npm start` the website will be opened automatically on your default browser.
+
+To run the project, execute the following command:
+
+
+```sh
+  npm start
+```
+### Run tests
+
+To run tests, run the following command:
+
+
+```sh
+  npm test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+
+
+```sh
+    npm run deploy
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -63,6 +141,19 @@ To get a local copy up and running follow these simple steps.
 - Twitter: [@Mujeebu93992980](https://twitter.com/Mujeebu93992980)
 - LinkedIn: [@mujeeb-ur-rahman-54268011a](https://linkedin.com/in/mujeeb-ur-rahman-54268011a)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Add Test to React components**
+- [ ] **Add Page For Not found ,when route path is not found**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
@@ -70,7 +161,7 @@ To get a local copy up and running follow these simple steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mujeeb4582/react-todo-app/issues).
 
 <!-- SUPPORT -->
 
@@ -83,9 +174,29 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Thanks to the Microverse team for the great curriculum.
+- Great thanks to [Ibas Majid](https://ibaslogic.com/) articles 
 - Thanks to the Code Reviewer(s) for the insightful feedback.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
 - Hat tip to anyone whose code was used.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -94,3 +205,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](https://github.com/Mujeeb4582/Math_Megicians/blob/React-Setup/Licence) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
