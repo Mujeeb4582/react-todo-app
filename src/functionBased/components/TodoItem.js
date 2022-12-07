@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { FaTrashAlt } from 'react-icons/fa';
 import styles from './TodoItem.module.scss';
@@ -35,11 +35,6 @@ const TodoItem = (props) => {
   } else {
     editMode.display = 'none';
   }
-  // component will unmount
-  useEffect(() => () => {
-    // eslint-disable-next-line
-    console.log('Cleaning up...');
-  }, []);
 
   return (
     <li className={styles.item}>
