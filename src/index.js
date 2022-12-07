@@ -9,7 +9,7 @@ import './functionBased/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="https://mujeeb4582.github.io/react-todo-app/">
       <TodoContainer />
     </Router>
   </React.StrictMode>,
